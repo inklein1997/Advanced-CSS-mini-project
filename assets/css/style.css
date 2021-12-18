@@ -1,0 +1,39 @@
+#container1 {
+    border: black 4px solid;
+    /* width: 500px; */
+    min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.card {
+    border: red 2px dashed;
+    flex-basis: calc(33.3333% - 9em);
+    margin: 1.5em;
+    flex-grow: 1;
+
+    
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        flex-basis: calc(50% - 6em);
+
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(100% - 3em);
+    }
+}
+
+
+/* @media screen and (min-width: 992px) {
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  } */
