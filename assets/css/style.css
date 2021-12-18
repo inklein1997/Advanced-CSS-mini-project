@@ -44,7 +44,7 @@ h2 {
     border: var(--offwhite) 2px dashed;
     flex-basis: calc(33.3333% - 9em);
     margin: 1em;
-    flex-grow: 1;
+    flex-grow: 1;   
 }
 
 .card-header {
@@ -62,11 +62,23 @@ h2 {
     font-size: 1.5em;
 }
 
-.code-card {
-    background-color: var(--pink);
-    border-radius: 10deg;
-    min-height: 5em;
+.pre {
+    
 }
+
+.code-card {
+    border-radius: 10px;
+    min-height: 5em;
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+    margin: 0 5% 5% 5%;
+    padding:1em;
+    font-size:1.5em;
+    color: var(--offwhite) 
+}
+
 
 @media screen and (max-width: 992px) {
     .card {
