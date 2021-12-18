@@ -4,6 +4,15 @@
 ---
 Attempt to replicate the following webpage (see screenshots below) using advanced css.
 
-![desktop view screenshot](/assets/images/screenshot-1.png)
-![960px view screenshot](/assets/images/screenshot-2.png)
-![786px view screenshot](../assets/images/screenshot-3.png)
+![desktop view screenshot](../Advanced-CSS-mini-project/assets/images/screenshot1.png)
+![960px view screenshot](../Advanced-CSS-mini-project/assets/images/screenshot2.png)
+![786px view screenshot](../Advanced-CSS-mini-project/assets/images/screenshot3.png)
+
+---
+
+### Deployed URL: https://inklein1997.github.io/Advanced-CSS-mini-project/
+
+### Description: The address listed above shows an attempt to replicate a user responsive webpage from scratch
+
+### Screenshot
+![desktop view screeenshot](../Advanced-CSS-mini-project/assets/images/inklein1997.github.io_Advanced-CSS-mini-project_.png)
