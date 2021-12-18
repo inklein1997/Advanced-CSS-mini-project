@@ -80,6 +80,9 @@ pre {
     color: var(--offwhite);
     user-select: all;
 }
+.card::selection {
+    color: #29EFCB;
+}
 
 .card .card-header {
     border-radius: 8px;
@@ -95,6 +98,14 @@ pre {
     rgba(232, 102, 236, 1);
 }
 
+footer {
+    color: var(--pink);
+    font-size: 2em;
+    text-align: center;
+    padding: 2em 0 2em 0
+
+}
+
 @media screen and (max-width: 992px) {
     .card {
         flex-basis: calc(50% - 4em);
@@ -107,11 +118,3 @@ pre {
         flex-basis: calc(100% - 2em);
     }
 }
-
-
-/* @media screen and (min-width: 992px) {
-    .card-column {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
-    }
-  } */
