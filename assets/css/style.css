@@ -60,10 +60,11 @@ h2 {
 .card-desc {
     padding: 5% 1em 5% 1em;
     font-size: 1.5em;
+    color: var(--pink)
 }
 
-.pre {
-    
+pre {
+    white-space: pre-wrap;
 }
 
 .code-card {
@@ -76,9 +77,23 @@ h2 {
     margin: 0 5% 5% 5%;
     padding:1em;
     font-size:1.5em;
-    color: var(--offwhite) 
+    color: var(--offwhite);
+    user-select: all;
 }
 
+.card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+                      
+.card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 
+    0px 0px 8px 
+    rgba(232, 102, 236, 1),
+    0 0 15px 
+    rgba(232, 102, 236, 1);
+}
 
 @media screen and (max-width: 992px) {
     .card {
