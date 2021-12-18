@@ -1,3 +1,7 @@
+
+
+
+
 #container1 {
     border: black 4px solid;
     /* width: 500px; */
@@ -13,9 +17,33 @@
     flex-basis: calc(33.3333% - 9em);
     margin: 1.5em;
     flex-grow: 1;
-
-    
 }
+
+.card-header {
+    border: red dashed 2px;
+    margin: -0.5em 20% 0 20%;
+    font-size: 2em;
+}
+
+.card-desc {
+    padding: 5% 1em 5% 1em;
+    font-size: 1em;
+}
+
+.code-card {
+    background-color: pink;
+    border-radius: 10deg;
+    min-height: 5em;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 992px) {
     .card {
